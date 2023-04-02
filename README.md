@@ -87,19 +87,19 @@ gulp
 
 *   `assets/`
 
-*   `sass/`：存放 Sass 檔案
+*   `   sass/`：存放 Sass 檔案
     
-*   `css/`：存放編譯後的 CSS 檔案
+*   `   css/`：存放編譯後的 CSS 檔案
     
-*   `images/`：存放原始圖片檔案
+*   `   images/`：存放原始圖片檔案
     
-*   `js/`：存放原始 JavaScript 檔案
+*   `   js/`：存放原始 JavaScript 檔案
     
 *   `dist/`
 
-*   `images/`：存放壓縮後的圖片檔案
+*   `   images/`：存放壓縮後的圖片檔案
     
-*   `js/`：存放壓縮後的 JavaScript 檔案
+*   `   js/`：存放壓縮後的 JavaScript 檔案
 
 *   `index.html`：專案的主頁面
     
