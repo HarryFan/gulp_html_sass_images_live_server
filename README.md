@@ -56,7 +56,7 @@ Gulp 任務
 
 ![Van Harris](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxazvCKiIrz6tbqMk41Kfc-bqLhS7-rpwiTupoFM2aI%3Ds96-c&w=64&q=75)
 
-Continue writing please
+
 
 這些文件的變化，並執行對應的任務，生成對應的輸出文件到 `dist` 目錄下。開發完成後，`dist` 目錄下的文件即為最終部署到線上環境的文件。
 
