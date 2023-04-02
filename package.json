@@ -1,0 +1,30 @@
+{
+  "name": "gulp_html_sass_images_live_server",
+  "version": "1.0.0",
+  "description": "教學用 前端自動化工具gulp實踐",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryFan/gulp_html_sass_images_live_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarryFan/gulp_html_sass_images_live_server/issues"
+  },
+  "homepage": "https://github.com/HarryFan/gulp_html_sass_images_live_server#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "graceful-fs": "^4.2.4",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0"
+  }
+}
