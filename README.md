@@ -13,7 +13,7 @@
 在專案根目錄下打開終端機，運行以下命令安裝所需的依賴項：
 
 ```
-bashCopy codenpm install
+npm install
 ```
 
 這將會安裝以下依賴項：
@@ -42,7 +42,7 @@ bashCopy codenpm install
 在終端機中運行以下命令，將會執行所有 Gulp 任務，並啟動瀏覽器同步預覽。
 
 ```
-bashCopy codegulp
+gulp
 ```
 
 任務詳解
