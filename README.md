@@ -53,7 +53,6 @@ Gulp 任務
 
 執行 `gulp` 命令後，開發時請修改根目錄下的 `index.html`、`assets/sass`、`assets/images` 和 `assets/js` 目錄下的文件，Gulp 將自動監聽
 
-Share Prompt
 
 ![Van Harris](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxazvCKiIrz6tbqMk41Kfc-bqLhS7-rpwiTupoFM2aI%3Ds96-c&w=64&q=75)
 
