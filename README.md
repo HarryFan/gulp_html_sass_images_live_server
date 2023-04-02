@@ -9,19 +9,6 @@
 *   Node.js 版本：10.x 以上
     
 
-文件結構
-----
-
-```
-bashCopy code.
-├── assets/
-│   ├── images/      # 存放原始圖片│   ├── js/          # 存放原始 JavaScript 文件│   └── sass/        # 存放 Sass 檔案├── dist/            # 生成的輸出目錄，包含壓縮後的圖片、CSS 和 JavaScript│   ├── assets/
-│   │   ├── css/
-│   │   ├── images/
-│   │   └── js/
-│   └── index.html
-├── gulpfile.js      # Gulp 配置文件└── index.html       # 入口 HTML 文件
-```
 
 安裝依賴
 ----
@@ -29,7 +16,7 @@ bashCopy code.
 在專案根目錄下執行以下命令：
 
 ```
-bashCopy codenpm install
+npm install
 ```
 
 運行 Gulp
@@ -38,7 +25,7 @@ bashCopy codenpm install
 在專案根目錄下執行以下命令：
 
 ```
-bashCopy codegulp
+gulp
 ```
 
 執行成功後，將自動開啟瀏覽器預覽 `dist/index.html`，並監聽相關文件的變化。
@@ -74,13 +61,7 @@ Continue writing please
 
 這些文件的變化，並執行對應的任務，生成對應的輸出文件到 `dist` 目錄下。開發完成後，`dist` 目錄下的文件即為最終部署到線上環境的文件。
 
-### `dist` 目錄結構
 
-```
-bashCopy codedist/
-├── assets/
-│   ├── css/         # 編譯後的 CSS 文件│   ├── images/      # 壓縮後的圖片│   └── js/          # 壓縮後的 JavaScript 文件└── index.html       # 複製自根目錄下的 index.html
-```
 
 ### 開發流程
 
